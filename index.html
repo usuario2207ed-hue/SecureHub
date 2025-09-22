@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDCELL-TECH - Menu Neon</title>
+  <style>
+    /* Fundo e layout */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Título Neon */
+    h1 {
+      font-size: 2.5rem;
+      margin: 20px 0;
+      color: #0ff;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      animation: neon-glow 2s infinite alternate;
+    }
+
+    @keyframes neon-glow {
+      from {
+        text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #00f;
+      }
+      to {
+        text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0f0;
+      }
+    }
+
+    /* Container do menu */
+    .menu-container {
+      margin: 20px 0;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .menu-title {
+      font-size: 1.2rem;
+      margin: 15px 0;
+      color: #ff0;
+      text-shadow: 0 0 5px #ff0, 0 0 10px #f80;
+    }
+
+    /* Botões flutuantes */
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .menu a {
+      display: block;
+      text-decoration: none;
+      background: #111;
+      padding: 15px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 1rem;
+      color: #0ff;
+      border: 2px solid #0ff;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px rgba(0,255,255,0.3);
+    }
+
+    .menu a:hover {
+      transform: translateY(-5px) scale(1.05);
+      background: #0ff;
+      color: #000;
+      box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+    }
+
+    /* Rodapé Neon */
+    footer {
+      padding: 15px;
+      width: 100%;
+      font-size: 1rem;
+      background: #111;
+      animation: footer-glow 3s infinite alternate;
+    }
+
+    @keyframes footer-glow {
+      from {
+        text-shadow: 0 0 5px #0ff, 0 0 15px #00f;
+        color: #0ff;
+      }
+      to {
+        text-shadow: 0 0 10px #f0f, 0 0 25px #ff0;
+        color: #ff0;
+      }
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      .menu a {
+        font-size: 0.9rem;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Título Neon -->
+  <h1>Menu de Compartilhamento Seguro</h1>
+
+  <!-- Primeiro Menu -->
+  <div class="menu-container">
+    <div class="menu">
+      <a href="https://eu.pwpush.com/p/new?tab=text&utm_source=chatgpt.com" target="_blank">PW Push</a>
+      <a href="https://passtext.io/?utm_source=chatgpt.com" target="_blank">PassText</a>
+      <a href="https://sharetext.online/?utm_source=chatgpt.com" target="_blank">ShareText</a>
+      <a href="https://qopy.app/?utm_source=chatgpt.com" target="_blank">Qopy</a>
+      <a href="https://justpaste.it" target="_blank">JustPaste</a>
+      <a href="https://cryptpad.org/?utm_source=chatgpt.com" target="_blank">CryptPad</a>
+    </div>
+  </div>
+
+  <!-- Segundo Menu -->
+  <h1>Dados Vazados por Email</h1>
+  <div class="menu-container">
+    <div class="menu">
+      <a href="https://databreach.com/" target="_blank">DataBreach</a>
+      <a href="https://haveibeenpwned.com/?utm_source=chatgpt.com" target="_blank">Have I Been Pwned</a>
+      <a href="https://www.avast.com/en-us/hackcheck?utm_source=chatgpt.com" target="_blank">Avast Hack Check</a>
+      <a href="https://cybernews.com/personal-data-leak-check/?utm_source=chatgpt.com" target="_blank">CyberNews Leak Check</a>
+      <a href="https://dehashed.com/?utm_source=chatgpt.com" target="_blank">DeHashed</a>
+      <a href="https://leak-lookup.com/?utm_source=chatgpt.com" target="_blank">Leak Lookup</a>
+    </div>
+  </div>
+
+  <!-- Rodapé Animado -->
+  <footer>
+    © 2025 - EDCELL-TECH
+  </footer>
+
+</body>
+</html>
