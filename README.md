@@ -46,7 +46,7 @@ Leak Lookup – Identificação de senhas e contas em listas de vazamento.
 
 🚀 Como usar
 
-Abra o link:  em qualquer navegador.
+Abra o link: 👉 https://usuario2207ed-hue.github.io/SecureHub/ em qualquer navegador.
 
 No menu Compartilhamento Seguro, escolha uma das ferramentas para gerar links protegidos.
 
